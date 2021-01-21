@@ -1,0 +1,259 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 700;
+}
+/*--------------------*/
+
+.site_border {
+  width: 80%; /* Ширина */
+  border: 1px solid rgb(36, 36, 36); /* Рамка */
+  padding: 15px; /* Внутренний отступ */
+  margin: 0 auto; /* Выравнивание по центру экрана */
+  background-color: rgb(221, 221, 221); /* Фон */
+  border-radius: 25px; /* Скругление рамки */
+  overflow: auto; /*Делает все элементы на странице контектом*/
+  height: auto;
+}
+
+body {
+  background-color: rgb(199, 196, 196);
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.center {
+  margin: 25px 10px auto;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+}
+span {
+  font-style: italic;
+}
+
+.img {
+  float: left;
+  margin: 0 20px 10px;
+}
+.img img {
+  display: block;
+}
+
+img {
+  width: 450px;
+  height: 350px;
+}
+
+.img2 {
+  float: right;
+  margin: 10px 20px;
+}
+.img2 img {
+  display: block;
+}
+
+.text {
+  line-height: 22.5px;
+}
+
+.block1 {
+  margin: 50px 0 100px 0;
+}
+
+.block2 {
+  margin: 0 0 100px 0;
+}
+
+.block3 {
+  margin: 0 0 100px 0;
+}
+
+.block4 {
+  margin: 0 0 100px;
+}
+
+.block5 {
+  margin: 0 0 100px;
+}
+
+.block6 {
+  margin: 0 0 100px;
+}
+
+.block7 {
+  margin: 0 0 100px;
+}
+
+.block8 {
+  margin: 0 0 100px;
+}
+
+.block9 {
+  margin: 0 0 100px;
+}
+
+.block10 {
+  margin: 0 0 10px;
+}
+
+.first {
+  font-weight: 600;
+  display: inline-block;
+}
+
+span {
+  font-size: 16px;
+}
+
+.border {
+  border: 1px solid gray;
+  background-color: rgb(230, 230, 230);
+  padding: 15px 15px 52px 15px;
+  border-radius: 15px;
+}
+
+.border2 {
+  border: 1px solid gray;
+  background-color: rgb(230, 230, 230);
+  padding: 15px 15px 75px 15px;
+  border-radius: 15px;
+}
+
+.border3 {
+  border: 1px solid gray;
+  background-color: rgb(230, 230, 230);
+  padding: 15px 15px 60px 15px;
+  border-radius: 15px;
+}
+
+.border4 {
+  border: 1px solid gray;
+  background-color: rgb(230, 230, 230);
+  padding: 15px 15px 90px 15px;
+  border-radius: 15px;
+}
+
+.border5 {
+  border: 1px solid gray;
+  background-color: rgb(230, 230, 230);
+  padding: 15px 15px 115px 15px;
+  border-radius: 15px;
+}
+
+.border6 {
+  border: 1px solid gray;
+  background-color: rgb(230, 230, 230);
+  padding: 15px 15px 35px 15px;
+  border-radius: 15px;
+}
+
+.spisok {
+  padding: 0 0 0 15px;
+  line-height: 30px;
+}
+
+.text2 {
+  line-height: 22.5px;
+}
+.text3 {
+  line-height: 22.5px;
+}
+.text4 {
+  line-height: 22.5px;
+}
+.text5 {
+  line-height: 22.5px;
+}
+.text6 {
+  line-height: 22.5px;
+}
+.text7 {
+  line-height: 22.5px;
+}
+.text8 {
+  line-height: 22.5px;
+}
+.text9 {
+  line-height: 22.5px;
+}
+.text10 {
+  line-height: 22.5px;
+}
